@@ -12,12 +12,13 @@ body{
 
 header{
     background-color: white;
-    font-family: 'Shadows Into Light', cursive;
     padding: 20px;
 }
 
 .header-text{
     color: Purple;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
     font-size: 30px;
     text-align:center;
 }
