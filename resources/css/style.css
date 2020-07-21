@@ -1,13 +1,29 @@
+/* variables */
 
 
-
+/* defaults */
 
 body{
     background-image: url("../images/desert.jpg");
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/*header and structure/
+/*header */
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+.header-text{
+    color: Purple;
+    font-size: 30px;
+    text-align:center;
+}
+
+/*footer*/
+
+
 
 /* sections */
 section{
@@ -30,3 +46,5 @@ section{
 .final{
     background-color: RGBA(255,92,92,0.5);
 }
+
+/*forms*/
