@@ -1,11 +1,10 @@
-/* variables */
-
 
 /* defaults */
 
 body{
-    background-image: url("../images/desert.jpg");
-    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+ font-family:Arial, Helvetica, sans-serif;
+ color: white;
 }
 
 img,
@@ -17,48 +16,105 @@ video{
 /*header */
 
 header{
-    background-color: white;
-    padding: 20px;
+    background-color: black;
+    color:white;
+    padding: 40px;
 }
 
 .header-text{
-    color: Purple;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Arvo', serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     text-align:center;
 }
-
-/*footer*/
-
 
 
 /* sections */
 section{
-    border-width: 1px;
-    border-color: green;
+    border-width: 3px;
+    border-color:white;
     border-style:solid;
     margin-bottom: 50px;
     padding: 20px;
 }
 
 .intro{
-    background-color: pink;
-
+    background-color: black;
 }
 
-@media screen and (min-width: 500px){
-    .intro{
-        background-color: yellow;
-    }
+video{
+    display: block;
+margin:  auto;
+border-width: 3px;
+border-color:white;
+border-style: solid;
+padding: 5px;
 }
+
+img {
+    display: block;
+    margin:  auto;
+    border-width: 3px;
+    border-color:white;
+    border-style: solid;
+    padding:5px;
+}
+
 
 .content{
-    background-color: blueviolet;
+    background-color: black;
+
 }
 
 .final{
-    background-color: RGBA(255,92,92,0.5);
+    background-color: black;
+    text-align: center;
+}
+
+a{
+    color:lightsalmon;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color:white;
+        font-family:sans-serif,Helvetica,arial;
+        color:black;
+    }
+    section{
+        border-width: 3px;
+        border-color:black;
+        border-style:solid;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    .intro{
+        background-color:white;
+    }
+    
+    header{
+        background-color:white;
+        color:black;
+    }
+    .content{
+        background-color:white;
+    
+    }
+    
+    .final{
+        background-color:white;
+    
+    }
+
+
 }
 
 /*forms*/
